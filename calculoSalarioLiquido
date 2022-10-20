@@ -1,0 +1,21 @@
+programa {
+	funcao inicio() {
+		real salarioBruto, adicionalNoturno, horasExtras, desconto, salarioLiquido
+		
+		escreva("Digite Salario bruto: ")
+		leia (salarioBruto)
+		
+		escreva("Digite Adicional noturno: ")
+		leia(adicionalNoturno)
+		
+		escreva("Digite Horas extras: ")
+		leia(horasExtras)
+		
+		escreva("Digite Desconto: ")
+		leia(desconto)
+		
+		salarioLiquido = salarioBruto + adicionalNoturno + (horasExtras * 5) -desconto
+		
+		escreva(salarioLiquido)
+	}
+}
